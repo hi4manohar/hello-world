@@ -2,9 +2,8 @@
 
 //@param name for get name
 function getNameAndReturn( $name ) {
-	
 	//generate number between 6 and 15
-	$genNumber 	= rand( 6, 15 );
+	$genNumber = rand( 6, 15 );
 	
 	//concatenate name and generated number
 	$nameNumber = $name . $genNumber;
